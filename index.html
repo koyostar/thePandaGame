@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Panda Game</title>
+    <link rel="stylesheet" href="styles.css" />
+    <img id="pandaPic" src="Graphics/Panda.png" style="display: none" />
+    <img
+      id="miniPandaPic"
+      src="Graphics/Baby Panda.png"
+      style="display: none"
+    />
+    <img id="bamboosPic" src="Graphics/Bamboos.png" style="display: none" />
+    <img
+      id="bambooShootPic"
+      src="Graphics/Bamboo Shoot.png"
+      style="display: none"
+    />
+  </head>
+  <body>
+    <h1>The Panda Game</h1>
+    <div class="gamePlay">
+      <div class="instructions">
+        <h3>Instructions</h3>
+        <p>Panda is hungry! Help him find some bamboos to eat!</p>
+        <p>With more bamboos, he can feed more baby pandas.</p>
+      </div>
+      <div id="gameContainer">
+        <p id="scoreBar"><span>Score: </span><span id="scoreEl">0</span></p>
+        <canvas id="gameBoard"></canvas>
+      </div>
+      <div class="controls">
+        <h3>Controls</h3>
+        <div class="arrowBtn">
+          <button type="button" id="upBtn">
+            <img src="Graphics/ Bamboo Arrow (Up).png" /></button
+          ><button type="button" id="downBtn">
+            <img src="Graphics/ Bamboo Arrow (Down).png" />
+          </button>
+          <button type="button" id="leftBtn">
+            <img src="Graphics/ Bamboo Arrow (Left).png" />
+          </button>
+          <button type="button" id="rightBtn">
+            <img src="Graphics/ Bamboo Arrow (Right).png" />
+          </button>
+        </div>
+        <button id="restartBtn">Restart Game</button>
+      </div>
+    </div>
+    <script defer src="main.js"></script>
+  </body>
+</html>

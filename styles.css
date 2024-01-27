@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+#gameContainer {
+  position: relative;
+}
+
+.gamePlay {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.instructions,
+.controls {
+  margin: 0 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+canvas {
+  border: 10px solid;
+}
+
+.arrowBtn {
+  display: grid;
+  grid-gap: 10px;
+}
+
+#scoreBar {
+  color: white;
+  background-color: rgb(12, 57, 13);
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+  margin: 0;
+}
+
+h1,
+h3 {
+  color: white;
+  text-align: center;
+}
+
+img {
+  border-radius: 4px;
+  padding: 5px;
+  width: 50px;
+}
+
+button {
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#upBtn {
+  grid-row: 1/2;
+  grid-column: 2/3;
+}
+
+#downBtn {
+  grid-row: 3/4;
+  grid-column: 2/3;
+}
+
+#leftBtn {
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+
+#rightBtn {
+  grid-row: 2/3;
+  grid-column: 3/4;
+}
+
+#restartBtn {
+  margin-top: 50px;
+  font-size: 20px;
+  padding: 10px;
+  align-items: center;
+  border-radius: 5px;
+}
+
+#gameOverScreen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#gameOver {
+  font-size: 100px;
+}
+
+#finalScore {
+  font-size: 50px;
+  text-align: center;
+}
