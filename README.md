@@ -1,20 +1,58 @@
-#The Panda Game
+# The Panda Game
+
+**_A traditional game of snakes but with a much cuter animal - Pandas._**
+
+---
+
+### Screenshot
+
+**Game Start:**
+![Screenshot of gameplay](/Graphics/Screenshot_startGame.png)
+
+**Collect Bamboo:**
+![Screenshot of gameplay](/Graphics/Screenshot_collectBamboo.png)
+
+**Game Over:**
+![Screenshot of gameplay](/Graphics/Screenshot_gameOver.png)
+
+---
+
+### Technologies Used
+
+- JavaScript
+- HTML
+- CSS
+
+---
+
+## Getting Started
 
 https://koyostar.github.io/thePandaGame/
 
-##Instructions
+---
+
+### Instructions
+
 Panda can't find his panda babies! Help him collect bamboos to lure out his panda babies!
 
 When a bamboo appears, move Panda with the arrow keys to collect it. with every bamboo collected, a baby Panda appears and follows Panda around.
 
 The game ends when Panda moves off the screen or bumps into a baby panda.
 
-☐ <Your game's title>: A description of your game. Background info of the game is a nice touch.
+Hit Spacebar or Enter to restart the game.
 
-☐ Screenshot(s): Images of your actual game.
+**_Bonus:_**
+There's three difficulty levels.
 
-☐ Technologies Used: List of the technologies used, e.g., JavaScript, HTML, CSS...
+Panda moves at a faster speed when scores hit 50 and 150.
 
-☐ Getting Started: In this section include the link to your deployed game and any instructions you deem important.
+Do you think you can manage?
 
-☐ Next Steps: Planned future enhancements (icebox items).
+---
+
+### Next Steps
+
+- Manual selection of levels
+- Best Score
+- Leaderboard
+- Moving graphics
