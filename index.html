@@ -21,11 +21,6 @@
   <body>
     <h1>The Panda Game</h1>
     <div class="gamePlay">
-      <div class="instructions">
-        <h3>Instructions</h3>
-        <p>Panda is hungry! Help him find some bamboos to eat!</p>
-        <p>With more bamboos, he can feed more baby pandas.</p>
-      </div>
       <div id="gameContainer">
         <p id="scoreBar"><span>Score: </span><span id="scoreEl">0</span></p>
         <canvas id="gameBoard"></canvas>
@@ -46,6 +41,22 @@
           </button>
         </div>
         <button id="restartBtn">Restart Game</button>
+      </div>
+      <div class="instructions">
+        <h3>Instructions</h3>
+        <p>
+          Panda can't find his panda babies! Help him collect bamboos to lure
+          out his panda babies!
+        </p>
+        <p>
+          When a bamboo appears, move Panda with the arrow keys to collect it.
+          with every bamboo collected, a baby Panda appears and follows Panda
+          around.
+        </p>
+        <p>
+          The game ends when Panda moves off the screen or bumps into a baby
+          panda.
+        </p>
       </div>
     </div>
     <script defer src="main.js"></script>

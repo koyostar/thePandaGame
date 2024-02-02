@@ -231,3 +231,14 @@ function gameOverMsg() {
 
   document.addEventListener("keyup", restartGame);
 }
+
+module.exports = {
+  draw,
+  changeDirections,
+  placeBamboo,
+  rows,
+  cols,
+  blockSize,
+  velocityX,
+  velocityY,
+};
