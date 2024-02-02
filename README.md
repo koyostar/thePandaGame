@@ -40,10 +40,9 @@ Panda can't find his panda babies! Help him collect bamboos to lure out his pand
 - Hit Spacebar or Enter to restart the game.
 
 > **_Bonus:_**
+>
 > There's three difficulty levels.
->
 > Panda moves at a faster speed when scores hit 50 and 150.
->
 > Do you think you can manage?
 
 ---
