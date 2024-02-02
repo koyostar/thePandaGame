@@ -35,18 +35,16 @@ https://koyostar.github.io/thePandaGame/
 
 Panda can't find his panda babies! Help him collect bamboos to lure out his panda babies!
 
-When a bamboo appears, move Panda with the arrow keys to collect it. with every bamboo collected, a baby Panda appears and follows Panda around.
+- When a bamboo appears, move Panda with the arrow keys to collect it. with every bamboo collected, a baby Panda appears and follows Panda around.
+- The game ends when Panda moves off the screen or bumps into a baby panda.
+- Hit Spacebar or Enter to restart the game.
 
-The game ends when Panda moves off the screen or bumps into a baby panda.
-
-Hit Spacebar or Enter to restart the game.
-
-**_Bonus:_**
-There's three difficulty levels.
-
-Panda moves at a faster speed when scores hit 50 and 150.
-
-Do you think you can manage?
+> **_Bonus:_**
+> There's three difficulty levels.
+>
+> Panda moves at a faster speed when scores hit 50 and 150.
+>
+> Do you think you can manage?
 
 ---
 
